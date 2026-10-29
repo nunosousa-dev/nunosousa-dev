@@ -37,8 +37,8 @@ def build():
     text(36, 8, "NUNO", 108)
     text(36, 112, "SOUSA", 108)
     line([(42, 259), (458, 259)], INK)
-    text(42, 273, "DevOps. Delivery.", 24)
-    text(42, 305, "Infrastructure.", 24)
+    text(42, 273, "AI platforms.", 24)
+    text(42, 305, "Cloud & DevOps.", 24)
 
     cx, cy, radius = 694, 156, 105
     ellipse((cx - radius, cy - radius, cx + radius, cy + radius))

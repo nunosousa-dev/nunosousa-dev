@@ -1,5 +1,5 @@
 <a href="https://nunosousa.dev">
-  <img src="assets/mission-control.png" alt="Nuno Sousa - DevOps, delivery, and infrastructure. Porto, Portugal." width="100%">
+  <img src="assets/mission-control.png" alt="Nuno Sousa - AI platforms, cloud, and DevOps. Porto, Portugal." width="100%">
 </a>
 
 <p align="center">
@@ -10,12 +10,18 @@
   <a href="https://github.com/nunosousa-dev?tab=repositories">Repositories</a>
 </p>
 
-Hi, I'm Nuno. I'm a DevOps Engineer at [Critical TechWorks](https://www.criticaltechworks.com/), based in Porto, Portugal.
+Hi, I'm Nuno, an AI Platform Engineer at [Critical TechWorks](https://www.criticaltechworks.com/), based in Porto, Portugal.
 
-I work with automation, CI/CD, and infrastructure. Outside work, I spend time on my homelab and build small web apps.
+I help improve and maintain BMW's cloud-based AI platform. Before that, I worked on cloud platforms and CI/CD pipelines for BMW ConnectedDrive.
+
+Outside work, I spend time on my homelab and build small web apps.
 
 <details>
 <summary><strong>A bit more about me</strong></summary>
+
+I started in SAP systems administration, then founded Load Innovation, where I worked on infrastructure consulting and software development. At Toogas, I worked on AWS infrastructure, Jenkins pipelines, and monitoring for Magento applications.
+
+I joined Critical TechWorks in 2021, working on the AWS-based Orbit platform and later Connected CI. Since October 2024, I've been working on BMW's AI platform.
 
 My homelab runs Kubernetes on Talos Linux and Proxmox. I use Terraform to provision it and Argo CD to manage it through GitOps.
 
@@ -27,6 +33,8 @@ I'm a native Portuguese speaker and use English at work.
 
 <details>
 <summary><strong>Tools I use</strong></summary>
+
+My professional work has included AWS, Jenkins, Prometheus, and Grafana. In my personal projects, I also use:
 
 | Layer | Tools in my personal projects |
 | :--- | :--- |

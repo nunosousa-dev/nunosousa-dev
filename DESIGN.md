@@ -79,7 +79,7 @@ The artwork uses Chakra Petch SemiBold, rasterized from the Google Fonts TTF; it
 
 - **Display:** the two-line name.
 - **Title / subtitle:** CODE / TO CLOUD in the orbit centre.
-- **Descriptor:** DevOps, delivery, and infrastructure beneath the name divider.
+- **Descriptor:** AI platforms, cloud, and DevOps beneath the name divider.
 - **Label:** BUILD, SHIP, and RUN around the orbit.
 - **Caption:** mission-control and location annotations along the bottom rule.
 
