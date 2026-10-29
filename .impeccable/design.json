@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-29T00:00:00Z",
+  "title": "Design System: Nuno Sousa — Personal Mission Control",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Pale Aqua Ground",
+        "tonalRamp": ["oklch(15% 0.015 170)", "oklch(26% 0.025 170)", "oklch(38% 0.035 170)", "oklch(49% 0.04 170)", "oklch(61% 0.04 170)", "oklch(72% 0.035 170)", "oklch(84% 0.025 170)", "oklch(95% 0.015 170)"]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Deep Petrol Ink",
+        "tonalRamp": ["oklch(15% 0.02 190)", "oklch(26% 0.035 190)", "oklch(38% 0.05 190)", "oklch(49% 0.06 190)", "oklch(61% 0.06 190)", "oklch(72% 0.05 190)", "oklch(84% 0.035 190)", "oklch(95% 0.015 190)"]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Calibration Green",
+        "tonalRamp": ["oklch(15% 0.015 170)", "oklch(26% 0.03 170)", "oklch(38% 0.045 170)", "oklch(49% 0.055 170)", "oklch(61% 0.055 170)", "oklch(72% 0.045 170)", "oklch(84% 0.03 170)", "oklch(95% 0.015 170)"]
+      },
+      "signal": {
+        "role": "primary",
+        "displayName": "Signal Orange",
+        "tonalRamp": ["oklch(15% 0.025 35)", "oklch(26% 0.065 35)", "oklch(38% 0.11 35)", "oklch(49% 0.15 35)", "oklch(61% 0.17 35)", "oklch(72% 0.13 35)", "oklch(84% 0.075 35)", "oklch(95% 0.02 35)"]
+      }
+    },
+    "typographyMeta": {
+      "artwork-display": { "displayName": "Artwork Display", "purpose": "Two-line name; logical drawing size, rasterized at scale 2." },
+      "artwork-title": { "displayName": "Artwork Title", "purpose": "CODE at the orbit centre; logical drawing size." },
+      "artwork-descriptor": { "displayName": "Artwork Descriptor", "purpose": "Role descriptors below the name divider; logical drawing size." },
+      "artwork-subtitle": { "displayName": "Artwork Subtitle", "purpose": "TO CLOUD at the orbit centre; logical drawing size." },
+      "artwork-label": { "displayName": "Artwork Label", "purpose": "BUILD, SHIP, RUN; logical drawing size." },
+      "artwork-caption": { "displayName": "Artwork Caption", "purpose": "Mission-control and location annotations; logical drawing size. Not a host body-text token." }
+    },
+    "shadows": [],
+    "motion": [],
+    "breakpoints": []
+  },
+  "components": [
+    {
+      "name": "Native Command Disclosure",
+      "kind": "custom",
+      "description": "Shipped semantic disclosure pattern. Unstyled here intentionally: GitHub owns typography, markers, focus, and states; this preview is not a GitHub sanitizer test.",
+      "html": "<details><summary><strong><code>whoami</code> — the person behind the commits</strong></summary><h3>Hello from Porto</h3><p>DevOps is the thread connecting my professional work and my curiosity outside it. Here on GitHub, that extends to web applications, GitOps, and a self-hosted Kubernetes homelab.</p></details>",
+      "css": ""
+    },
+    {
+      "name": "Native Profile Navigation",
+      "kind": "nav",
+      "description": "Exact anchor structure with native host states. No invented custom button or link styling.",
+      "html": "<p align=\"center\"><a href=\"https://nunosousa.dev\"><strong>Visit my website ↗</strong></a> &nbsp; / &nbsp; <a href=\"https://www.linkedin.com/in/nunosowza\">Connect on LinkedIn ↗</a> &nbsp; / &nbsp; <a href=\"https://github.com/nunosousa-dev?tab=repositories\">Explore repositories ↗</a></p>",
+      "css": ""
+    }
+  ],
+  "narrative": {
+    "northStar": "Personal Mission Control",
+    "overview": "A pale aqua instrument panel gives this profile an authored, technical identity: oversized geometric lettering, deep petrol ink, measured orbital marks, and one orange routing signal. The finished artwork is calm and static, not a simulated live dashboard.\n\nThe system has two ownership boundaries. `scripts/build-artwork.py` controls the raster nameplate; GitHub controls the Markdown typography, theme, spacing, links, tables, and disclosure states around it. Tokens above describe only the artwork, not a README stylesheet.",
+    "keyCharacteristics": [
+      "Original, flat instrument-panel artwork.",
+      "Dominant name lettering with restrained routing detail.",
+      "Native, keyboard-operable disclosures and real links.",
+      "Static imagery with honest public-data snapshot language."
+    ],
+    "rules": [
+      { "name": "The Signal Is Not Status Rule", "body": "The orange node belongs to the illustration; public activity is a snapshot, not evidence of live service health.", "section": "colors" },
+      { "name": "The Native Type Rule", "body": "Keep essential information and interactive labels in real Markdown; do not make raster annotations the sole source of profile facts.", "section": "typography" }
+    ],
+    "dos": [
+      "**Do** regenerate the artwork from its Python source and preserve PNG provenance metadata.",
+      "**Do** keep profile facts, navigation, command explanations, and telemetry readable as real text.",
+      "**Do** preserve native disclosure markers, keyboard behavior, and visible focus.",
+      "**Do** check narrow and wide layouts, light and dark hosts, and expanded disclosures."
+    ],
+    "donts": [
+      "**Don't** claim project CSS controls GitHub's typography, colors, layout, or focus styles.",
+      "**Don't** turn the orange routing node or a daily snapshot into a live-health claim.",
+      "**Don't** add animated imagery or require motion to understand the profile.",
+      "**Don't** treat locally approximated GitHub previews as live sanitizer verification."
+    ]
+  }
+}
