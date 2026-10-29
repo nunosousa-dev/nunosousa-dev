@@ -12,18 +12,38 @@
 
 Hi, I'm Nuno, an AI Platform Engineer at [Critical TechWorks](https://www.criticaltechworks.com/), based in Porto, Portugal.
 
-I help improve and maintain BMW's cloud-based AI platform. Before that, I worked on cloud platforms and CI/CD pipelines for BMW ConnectedDrive.
+I help improve and maintain BMW's cloud-based AI platform. I've been working on the platform since October 2024.
 
-Outside work, I spend time on my homelab and build small web apps.
+## What I work with now
+
+My current focus is running AI workloads, model deployments, and the platform tooling around them.
+
+| Area | Tools |
+| :--- | :--- |
+| **Workflows & compute** | Argo Workflows · Ray |
+| **Model management** | MLflow |
+| **Cloud & deployment** | AWS · Kubernetes · Helm |
+| **CI/CD & GitOps** | GitHub Actions · Argo CD |
+| **Monitoring** | Prometheus · Grafana |
+
+## Things I'd like to write about
+
+I'd like to write practical notes on this stack, with small examples you can run yourself. A few topics I want to start with:
+
+- **Argo Workflows and Ray:** what each one does, and when to use them together.
+- **Workflow monitoring:** useful Prometheus metrics and Grafana dashboards without too many time series.
+- **MLflow and model serving:** taking a model version from a registry to a working endpoint.
+
+These are planned topics, not published posts yet.
 
 <details>
-<summary><strong>A bit more about me</strong></summary>
+<summary><strong>Background and outside work</strong></summary>
 
-I started in SAP systems administration, then founded Load Innovation, where I worked on infrastructure consulting and software development. At Toogas, I worked on AWS infrastructure, Jenkins pipelines, and monitoring for Magento applications.
+I joined Critical TechWorks in 2021, working on the AWS-based Orbit platform and later on CI/CD pipelines for BMW ConnectedDrive through Connected CI.
 
-I joined Critical TechWorks in 2021, working on the AWS-based Orbit platform and later Connected CI. Since October 2024, I've been working on BMW's AI platform.
+Before that, I worked on AWS infrastructure, Jenkins pipelines, and monitoring for Magento applications at Toogas. I also founded Load Innovation, working on infrastructure consulting and software development, after starting in SAP systems administration.
 
-My homelab runs Kubernetes on Talos Linux and Proxmox. I use Terraform to provision it and Argo CD to manage it through GitOps.
+Outside work, I build small web apps and run a Kubernetes homelab on Talos Linux and Proxmox. I use Terraform to provision it and Argo CD to manage it through GitOps.
 
 I'm a native Portuguese speaker and use English at work.
 
@@ -32,17 +52,16 @@ I'm a native Portuguese speaker and use English at work.
 </details>
 
 <details>
-<summary><strong>Tools I use</strong></summary>
+<summary><strong>Personal-project tools</strong></summary>
 
-My professional work has included AWS, Jenkins, Prometheus, and Grafana. In my personal projects, I also use:
+For web apps and the homelab, I also use:
 
-| Layer | Tools in my personal projects |
+| Area | Tools |
 | :--- | :--- |
-| **Application** | TypeScript · Next.js · Node.js |
+| **Web apps** | TypeScript · Next.js · Node.js |
 | **Data** | SQLite · Drizzle |
-| **Delivery** | GitHub Actions · Docker · Helm · Argo CD |
-| **Infrastructure** | Kubernetes · Terraform · Talos Linux · Proxmox |
-| **Networking & monitoring** | Cilium · Prometheus |
+| **Containers** | Docker |
+| **Homelab** | Terraform · Talos Linux · Proxmox · Cilium |
 
 </details>
 

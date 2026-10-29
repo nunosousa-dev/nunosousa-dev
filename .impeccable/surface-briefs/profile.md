@@ -7,6 +7,8 @@ Copy refinement: the user requested a more human voice and hyphens instead of em
 
 Career correction: the supplied LinkedIn PDF confirms the current title AI Platform Engineer at Critical TechWorks, maintaining BMW's cloud-based AI platform since October 2024. The introduction and artwork descriptors now lead with AI platforms, cloud, and DevOps. Retain the existing layout and avoid inventing AI frameworks or model-development responsibilities.
 
+Current-stack focus: show the user-confirmed current tools as a visible table, followed by three clearly planned writing topics. Earlier work, personal tools, and certifications belong in secondary disclosures. Keep internal research evidence outside the public repository and use only generic technology names and independent tutorial ideas in published content.
+
 ## Direction contract
 THESIS: A personal mission control, not a stack of badges or third-party statistics widgets.
 

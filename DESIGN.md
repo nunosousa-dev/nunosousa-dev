@@ -112,7 +112,7 @@ An original linked image, not a stats widget. Preserve the authored proportions,
 Each native `<details>` starts closed and has a `<summary>` with a short, bold, plain-language label. Multiple panels may remain open independently. Native markers, keyboard activation, focus indication, and expanded-state behavior belong to the browser/GitHub. The README uses personal language rather than simulated commands.
 
 ### Navigation, tables, and telemetry
-The centred navigation uses real anchors separated by slashes. Markdown tables organize tools and credentials inside disclosures, not custom cards. Recent activity is a separate Markdown region with an honest first-sync empty state and a public-activity link; daily automation populates that region rather than animating the illustration. The project-showcase exclusion is a surface requirement in `PRODUCT.md`, not a reusable visual component rule.
+The centred navigation uses real anchors separated by slashes. A visible Markdown table puts the current toolchain first, followed by a short list of planned writing topics. Secondary disclosures hold earlier work, personal-project tools, and credentials, not custom cards. Recent activity is a separate Markdown region with an honest first-sync empty state and a public-activity link; daily automation populates that region rather than animating the illustration. The project-showcase exclusion is a surface requirement in `PRODUCT.md`, not a reusable visual component rule.
 
 ## Do's and Don'ts
 
