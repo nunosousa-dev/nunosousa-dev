@@ -26,15 +26,13 @@ My current focus is running AI workloads, model deployments, and the platform to
 | **CI/CD & GitOps** | GitHub Actions · Argo CD |
 | **Monitoring** | Prometheus · Grafana |
 
-## Things I'd like to write about
+## Current interests
 
-I'd like to write practical notes on this stack, with small examples you can run yourself. A few topics I want to start with:
+A few topics I'm interested in:
 
 - **Argo Workflows and Ray:** what each one does, and when to use them together.
 - **Workflow monitoring:** useful Prometheus metrics and Grafana dashboards without too many time series.
 - **MLflow and model serving:** taking a model version from a registry to a working endpoint.
-
-These are planned topics, not published posts yet.
 
 <details>
 <summary><strong>Background and outside work</strong></summary>
