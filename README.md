@@ -81,9 +81,18 @@ The command is a playful label, not a real SSH endpoint.
 A daily snapshot of public GitHub data—not a live status monitor. Private work stays private.
 
 <!-- PROFILE:START -->
-**Awaiting first sync.** The telemetry panel will populate after the GitHub Actions workflow runs.
+**17 public repositories** · Snapshot: **2026-10-29 15:24 UTC**
 
-[View public activity on GitHub ↗](https://github.com/nunosousa-dev?tab=overview)
+| Date (UTC) | Recent public signal |
+| :--- | :--- |
+| 2026-10-29 | Updated a pull request in [nunosousa-dev/bivomafalda.pt](https://github.com/nunosousa-dev/bivomafalda.pt) |
+| 2026-10-27 | Pushed code to [nunosousa-dev/secret-santa](https://github.com/nunosousa-dev/secret-santa) |
+| 2026-10-19 | Pushed code to [nunosousa-dev/homelab](https://github.com/nunosousa-dev/homelab) |
+
+[View public activity ↗](https://github.com/nunosousa-dev?tab=overview)
+· [Refresh workflow](https://github.com/nunosousa-dev/nunosousa-dev/actions/workflows/profile.yml)
+
+<sub>Up to three recent signals from GitHub's public events feed; not a complete contribution history. Updates may be delayed.</sub>
 <!-- PROFILE:END -->
 
 <sub>Built from Markdown, custom artwork, and a little automation. Expand the panels. Follow a link. Look around.</sub>
