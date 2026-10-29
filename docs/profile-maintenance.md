@@ -4,7 +4,7 @@
 
 `.github/workflows/profile.yml` runs daily at 07:23 UTC, manually from the Actions tab, and when its workflow or updater changes on `main`. Scheduled runs use the default branch and GitHub may delay them. If this repository uses a different default branch, change the push branch filter too.
 
-After pushing these files, enable Actions if prompted. The first run replaces the honest “Awaiting first sync” placeholder. You can also choose **Actions → Refresh public profile → Run workflow**.
+After pushing these files, enable Actions if prompted. The first run replaces the first-update placeholder. You can also choose **Actions → Refresh public profile → Run workflow**.
 
 The job needs permission to write repository contents with its built-in `GITHUB_TOKEN`. No personal access token or secret setup is required. Branch protections that forbid bot commits need an appropriate repository policy or a PR-based publishing workflow; this workflow does not bypass protections. GitHub may disable scheduled workflows after 60 days without repository activity; re-enable the schedule if needed.
 
@@ -37,4 +37,4 @@ The script downloads the Chakra Petch SemiBold font from Google Fonts for render
 
 Disclosure panels use native `<details>` / `<summary>` and can be operated with a keyboard. They work without JavaScript. GitHub controls typography and light/dark styling outside the artwork. The fixed pale-aqua header is designed for both surrounding themes and contains no mandatory motion. Its essential introduction is repeated as real Markdown and image alt text.
 
-There is deliberately no JavaScript, fake terminal input, private tracking, external stats widget, or project showcase. This is a profile README, not an embedded web application.
+There is deliberately no JavaScript, simulated terminal commands, private tracking, external stats widget, or project showcase. Keep the copy personal and direct, and use hyphens rather than em dashes, including generated activity text.

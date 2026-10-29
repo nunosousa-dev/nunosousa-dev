@@ -1,5 +1,5 @@
 ---
-name: Nuno Sousa — Personal Mission Control
+name: Nuno Sousa - Personal Mission Control
 description: Authored instrument-panel artwork paired with GitHub-native Markdown.
 colors:
   ground: "#d6f1e8"
@@ -39,7 +39,7 @@ components:
     height: "720px"
 ---
 
-# Design System: Nuno Sousa — Personal Mission Control
+# Design System: Nuno Sousa - Personal Mission Control
 
 ## Overview
 
@@ -83,7 +83,7 @@ The artwork uses Chakra Petch SemiBold, rasterized from the Google Fonts TTF; it
 - **Label:** BUILD, SHIP, and RUN around the orbit.
 - **Caption:** mission-control and location annotations along the bottom rule.
 
-Outside the artwork, headings, paragraphs, bold emphasis, inline command code, and the small footer use GitHub's native styles. No local body-font, line-height, tracking, or type-scale tokens are asserted.
+Outside the artwork, headings, paragraphs, and bold emphasis use GitHub's native styles. No local body-font, line-height, tracking, or type-scale tokens are asserted.
 
 **The Native Type Rule.** Keep essential information and interactive labels in real Markdown; do not make raster annotations the sole source of profile facts.
 
@@ -108,11 +108,11 @@ A square-edged rectangular artwork field contains circular instrument geometry. 
 ### Mission-control nameplate
 An original linked image, not a stats widget. Preserve the authored proportions, palette, oversized name, orbital diagram, and metadata provenance. The website link and descriptive `alt` text remain real HTML in `README.md`; there are no hover or focus styles baked into the PNG.
 
-### Command disclosures
-Each native `<details>` starts closed and has a `<summary>` containing bold text, an inline-code command, and a plain-language explanation. Multiple panels may remain open independently. Native markers, keyboard activation, focus indication, and expanded-state behavior belong to the browser/GitHub; no JavaScript terminal or custom accordion is implied.
+### Profile disclosures
+Each native `<details>` starts closed and has a `<summary>` with a short, bold, plain-language label. Multiple panels may remain open independently. Native markers, keyboard activation, focus indication, and expanded-state behavior belong to the browser/GitHub. The README uses personal language rather than simulated commands.
 
 ### Navigation, tables, and telemetry
-The centred navigation uses real anchors separated by slashes, with the website link emphasized. Markdown tables organize tools and credentials inside disclosures, not custom cards. Public telemetry is a separate Markdown region with an honest first-sync empty state and a public-activity link; daily automation populates that region rather than animating the illustration. The project-showcase exclusion is a surface requirement in `PRODUCT.md`, not a reusable visual component rule.
+The centred navigation uses real anchors separated by slashes. Markdown tables organize tools and credentials inside disclosures, not custom cards. Recent activity is a separate Markdown region with an honest first-sync empty state and a public-activity link; daily automation populates that region rather than animating the illustration. The project-showcase exclusion is a surface requirement in `PRODUCT.md`, not a reusable visual component rule.
 
 ## Do's and Don'ts
 

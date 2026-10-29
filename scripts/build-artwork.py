@@ -73,7 +73,7 @@ def build():
     text(854, 331, "PORTO, PT", 12, anchor="rt")
 
     metadata = PngImagePlugin.PngInfo()
-    metadata.add_text("Title", "Nuno Sousa — personal mission control")
+    metadata.add_text("Title", "Nuno Sousa - personal mission control")
     metadata.add_text("Description", "Original artwork rendered by scripts/build-artwork.py; not an AI-generated image or stock asset.")
     metadata.add_text("Source", f"Original geometric composition. Chakra Petch typeface: {FONT_URL}; SIL Open Font License 1.1.")
     output = ROOT / "assets/mission-control.png"

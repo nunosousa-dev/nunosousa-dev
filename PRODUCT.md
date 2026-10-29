@@ -12,6 +12,7 @@ Present Nuno Sousa's personal GitHub profile in a distinctive, dynamic format.
 - GitHub-rendered Markdown with local image assets; no JavaScript or embedded apps.
 - User selected mission control: custom artwork, expandable command panels, and public GitHub activity refreshed by GitHub Actions.
 - Do not include a “What I'm building” section or project showcase.
+- Use direct, personal language rather than mission-control jargon or simulated terminal commands in the README. Keep the existing artwork and native expandable sections. Use hyphens instead of em dashes, including generated activity text.
 - Public profile facts: Nuno Sousa, DevOps Engineer, Porto, Portugal, Critical TechWorks; links already in README.md.
 - Refreshes are snapshots, not live service health or availability indicators.
 - No private activity, secrets, or fabricated metrics.

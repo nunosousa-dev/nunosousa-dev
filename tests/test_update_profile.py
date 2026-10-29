@@ -38,13 +38,20 @@ class ProfileTests(unittest.TestCase):
             event(public=False), event(kind="WatchEvent"),
             event(repo='bad](https://example.com)/repo'),
         ])
-        self.assertIn("No recent supported public events", rendered)
+        self.assertIn("No recent activity to show", rendered)
         self.assertNotIn("example.com", rendered)
         self.assertNotIn("Pushed code to", rendered)
 
     def test_at_most_three_signals(self):
         rendered = self.render([event(repo=f"user/repo-{i}") for i in range(5)])
         self.assertEqual(rendered.count("Pushed code to"), 3)
+
+    def test_profile_copy_uses_no_em_dashes(self):
+        em_dash = chr(0x2014)
+        self.assertNotIn(em_dash, self.render([]))
+        self.assertNotIn(em_dash, self.render([event()]))
+        readme = Path(__file__).resolve().parents[1] / "README.md"
+        self.assertNotIn(em_dash, readme.read_text(encoding="utf-8"))
 
     def test_markdown_sensitive_repository_name(self):
         self.assertIn("user/a&#95;b", self.render([event(repo="user/a_b")]))

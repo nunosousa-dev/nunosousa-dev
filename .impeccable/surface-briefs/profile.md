@@ -3,6 +3,8 @@
 Mode: Experience. Target: README.md and local profile artwork.
 User-approved direction: mission control, daily public activity, expandable commands; no project showcase.
 
+Copy refinement: the user requested a more human voice and hyphens instead of em dashes. Preserve the artwork, but use plain labels for the three profile disclosures, short first-person copy, and “Recent activity” instead of telemetry terminology. Remove simulated commands, redundant headings, and the promotional footer.
+
 ## Direction contract
 THESIS: A personal mission control, not a stack of badges or third-party statistics widgets.
 

@@ -42,9 +42,9 @@ def render_snapshot(profile, events, now):
         raise ValueError("Invalid public repository count")
     lines = [
         f"**{repos} public repositories** · "
-        f"Snapshot: **{now:%Y-%m-%d %H:%M} UTC**",
+        f"Last updated: **{now:%Y-%m-%d %H:%M} UTC**",
         "",
-        "| Date (UTC) | Recent public signal |",
+        "| Date (UTC) | Activity |",
         "| :--- | :--- |",
     ]
     seen = set()
@@ -66,14 +66,14 @@ def render_snapshot(profile, events, now):
         if len(seen) == 3:
             break
     if not seen:
-        lines.append("| — | No recent supported public events in GitHub's activity window. |")
+        lines.append("| - | No recent activity to show from GitHub's public feed. |")
     lines.extend([
         "",
-        "[View public activity ↗](https://github.com/nunosousa-dev?tab=overview)",
+        "[More on GitHub](https://github.com/nunosousa-dev?tab=overview)",
         "· [Refresh workflow](https://github.com/nunosousa-dev/nunosousa-dev/actions/workflows/profile.yml)",
         "",
-        "<sub>Up to three recent signals from GitHub's public events feed; "
-        "not a complete contribution history. Updates may be delayed.</sub>",
+        "<sub>Up to three recent public updates. GitHub's feed can be delayed "
+        "and doesn't include every contribution.</sub>",
     ])
     return "\n".join(lines)
 
