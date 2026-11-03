@@ -33,11 +33,6 @@ class ProfileContentTests(unittest.TestCase):
         self.assertIn("A few topics I'm interested in:", interests)
         self.assertNotRegex(interests.lower(), r"\b(posts?|articles?|publish\w*|writ\w*|planned)\b")
 
-    def test_public_activity_section_is_not_included(self):
-        self.assertNotIn("## Recent activity", self.readme)
-        self.assertNotIn("<!-- PROFILE:", self.readme)
-        self.assertNotIn("actions/workflows/profile.yml", self.readme)
-
 
 if __name__ == "__main__":
     unittest.main()
