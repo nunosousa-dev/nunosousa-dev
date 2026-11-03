@@ -53,7 +53,7 @@ The system has two ownership boundaries. `scripts/build-artwork.py` controls the
 - Original, flat instrument-panel artwork.
 - Dominant name lettering with restrained routing detail.
 - Native, keyboard-operable disclosures and real links.
-- Static imagery with honest public-data snapshot language.
+- Static imagery without live-status claims.
 
 Evidence: `README.md`, `assets/mission-control.png`, `scripts/build-artwork.py`, and the six desktop/mobile/dark review captures, including expanded states. Captures approximate GitHub locally; they do not verify live GitHub sanitization. The approved direction is recorded in `.impeccable/surface-briefs/profile.md`; product constraints remain in `PRODUCT.md`.
 
@@ -71,7 +71,7 @@ Sidecar tonal ramps are synthesized panel previews only, not additional shipped 
 - **Deep petrol ink (`ink`):** lettering, crosshair accents, name divider, and node outlines.
 - **Calibration green (`rule`):** orbital rings, calibration ticks, and the footer rule; supporting geometry rather than body text.
 
-**The Signal Is Not Status Rule.** The orange node belongs to the illustration; public activity is a snapshot, not evidence of live service health.
+**The Signal Is Not Status Rule.** The orange node belongs to the illustration, not a live service-health indicator.
 
 ## Typography
 
@@ -111,19 +111,19 @@ An original linked image, not a stats widget. Preserve the authored proportions,
 ### Profile disclosures
 Each native `<details>` starts closed and has a `<summary>` with a short, bold, plain-language label. Multiple panels may remain open independently. Native markers, keyboard activation, focus indication, and expanded-state behavior belong to the browser/GitHub. The README uses personal language rather than simulated commands.
 
-### Navigation, tables, and telemetry
-The centred navigation uses real anchors separated by slashes. A visible Markdown table puts the current toolchain first, followed by a short list of current interests without a publication commitment. Secondary disclosures hold earlier work, personal-project tools, and credentials, not custom cards. Recent activity is a separate Markdown region with an honest first-sync empty state and a public-activity link; daily automation populates that region rather than animating the illustration. The project-showcase exclusion is a surface requirement in `PRODUCT.md`, not a reusable visual component rule.
+### Navigation and tables
+The centred navigation uses real anchors separated by slashes. A visible Markdown table puts the current toolchain first, followed by a short list of current interests without a publication commitment. Secondary disclosures hold earlier work, personal-project tools, and credentials, not custom cards. There is no recent-activity section or daily refresh automation. The project-showcase exclusion is a surface requirement in `PRODUCT.md`, not a reusable visual component rule.
 
 ## Do's and Don'ts
 
 ### Do:
 - **Do** regenerate the artwork from its Python source and preserve PNG provenance metadata.
-- **Do** keep profile facts, navigation, command explanations, and telemetry readable as real text.
+- **Do** keep profile facts, navigation, and disclosure labels readable as real text.
 - **Do** preserve native disclosure markers, keyboard behavior, and visible focus.
 - **Do** check narrow and wide layouts, light and dark hosts, and expanded disclosures.
 
 ### Don't:
 - **Don't** claim project CSS controls GitHub's typography, colors, layout, or focus styles.
-- **Don't** turn the orange routing node or a daily snapshot into a live-health claim.
+- **Don't** turn the orange routing node into a live-health claim.
 - **Don't** add animated imagery or require motion to understand the profile.
 - **Don't** treat locally approximated GitHub previews as live sanitizer verification.
