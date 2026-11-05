@@ -83,13 +83,13 @@ Dates are from LinkedIn, last checked in October 2026. The credential links have
 Updated daily from my public GitHub activity.
 
 <!-- PROFILE:START -->
-**17 public repositories** · Last updated: **2026-11-04 15:32 UTC**
+**18 public repositories** · Last updated: **2026-11-05 15:37 UTC**
 
 | Date (UTC) | Activity |
 | :--- | :--- |
+| 2026-11-03 | Pushed code to [nunosousa-dev/secret-santa](https://github.com/nunosousa-dev/secret-santa) |
 | 2026-11-03 | Pushed code to [nunosousa-dev/nunosousa-dev](https://github.com/nunosousa-dev/nunosousa-dev) |
 | 2026-10-29 | Pushed code to [nunosousa-dev/nunosousa-dev](https://github.com/nunosousa-dev/nunosousa-dev) |
-| 2026-10-29 | Created a repository or ref in [nunosousa-dev/bivomafalda.pt](https://github.com/nunosousa-dev/bivomafalda.pt) |
 
 [More on GitHub](https://github.com/nunosousa-dev?tab=overview)
 · [Refresh workflow](https://github.com/nunosousa-dev/nunosousa-dev/actions/workflows/profile.yml)
