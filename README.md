@@ -83,13 +83,13 @@ Dates are from LinkedIn, last checked in October 2026. The credential links have
 Updated daily from my public GitHub activity.
 
 <!-- PROFILE:START -->
-**18 public repositories** · Last updated: **2026-11-05 15:37 UTC**
+**18 public repositories** · Last updated: **2026-11-07 14:10 UTC**
 
 | Date (UTC) | Activity |
 | :--- | :--- |
+| 2026-11-06 | Pushed code to [nunosousa-dev/homelab](https://github.com/nunosousa-dev/homelab) |
+| 2026-11-05 | Pushed code to [nunosousa-dev/wireguard-exporter](https://github.com/nunosousa-dev/wireguard-exporter) |
 | 2026-11-03 | Pushed code to [nunosousa-dev/secret-santa](https://github.com/nunosousa-dev/secret-santa) |
-| 2026-11-03 | Pushed code to [nunosousa-dev/nunosousa-dev](https://github.com/nunosousa-dev/nunosousa-dev) |
-| 2026-10-29 | Pushed code to [nunosousa-dev/nunosousa-dev](https://github.com/nunosousa-dev/nunosousa-dev) |
 
 [More on GitHub](https://github.com/nunosousa-dev?tab=overview)
 · [Refresh workflow](https://github.com/nunosousa-dev/nunosousa-dev/actions/workflows/profile.yml)
